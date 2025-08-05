@@ -1,0 +1,98 @@
+_type: "prompt"
+template: |
+  Read the following table and then write Python code with pandas to answer a question:
+
+  import pandas as pd
+  data = {{
+      'Name': ['Braden', 'Camilla', 'Rick', 'Mary', 'Hector', 'Devin', 'Emily', 'Avery'],
+      'Number of coins': [76, 94, 86, 84, 80, 83, 82, 87]
+  }}
+  df = pd.DataFrame(data)
+
+  Question: Some friends discussed the sizes of their coin collections. What is the mean of the numbers?
+  ## You don’t need to reprint pre-written code like `import pandas as pd`, `data = {{...}}`, or `df = pd.DataFrame(data)`. That code will be provided separately, so just give me the code that processes `data` and `df`.
+  ## Return a query for the 'python code with pandas which return ans' with one key: code. Respond using JSON only.
+
+  {{'code' : '''# Calculate the mean of the 'Number of coins' column
+  mean_coins = df['Number of coins'].mean()
+  ans = mean_coins'''}}
+
+
+  Read the following table and then write Python code with pandas to answer a question:
+  
+  import pandas as pd
+  data = {{
+    'Price': [155, 275, 395, 515, 635],
+      'Quantity demanded': [22600, 20500, 18400, 16300, 14200],
+      'Quantity supplied': [5800, 9400, 13000, 16600, 20200]
+      }}
+  df = pd.DataFrame(data)
+
+  Question: Look at the table. Then answer the question. At a price of $155, is there a shortage or a surplus?
+  ## You don’t need to reprint pre-written code like `import pandas as pd`, `data = {{...}}`, or `df = pd.DataFrame(data)`. That code will be provided separately, so just give me the code that processes `data` and `df`.
+  ## Return a query for the 'python code with pandas which return ans' with one key: code. Respond using JSON only.
+
+  {{'code' : '''# Filter the row where the price is $155
+  price_155 = df[df['Price'] == 155]
+
+  # Calculate shortage or surplus
+  quantity_demanded = price_155['Quantity demanded'].values[0]
+  quantity_supplied = price_155['Quantity supplied'].values[0]
+
+  if quantity_demanded > quantity_supplied:
+    ans = 'shortage'
+  else:
+    ans = 'surplus' '''}}
+
+
+  Read the following table and then write Python code with pandas to answer a question:
+
+  import pandas as pd
+  data = {{
+      'Name': ['Samir', 'Kristen', 'Dakota', 'Jamie', 'Maggie'],
+      'Cans collected': [7, 4, 7, 8, 9]
+  }}
+  df = pd.DataFrame(data)
+
+  Question: Samir's class recorded how many cans of food each student collected for their canned food drive. What is the median of the numbers?
+  ## You don’t need to reprint pre-written code like `import pandas as pd`, `data = {{...}}`, or `df = pd.DataFrame(data)`. That code will be provided separately, so just give me the code that processes `data` and `df`.
+  ## Return a query for the 'python code with pandas which return ans' with one key: code. Respond using JSON only.
+
+  {{'code' : '''# Calculate the median of the 'Cans collected' column
+  median_cans = df['Cans collected'].median()
+  ans = median_cans'''}}
+
+
+  Read the following table and then write Python code with pandas to answer a question:
+
+  import pandas as pd
+  data = {{
+      'Toy': ['toy boat', 'toy guitar', 'set of juggling balls', 'trivia game', 'jigsaw puzzle', 'toy dinosaur'],
+      'Price': [5.54, 8.23, 5.01, 8.18, 5.30, 3.00]
+  }}
+  df = pd.DataFrame(data)
+
+  Question: Lorenzo has $13.50. Does he have enough to buy a toy guitar and a set of juggling balls?
+  ## You don’t need to reprint pre-written code like `import pandas as pd`, `data = {{...}}`, or `df = pd.DataFrame(data)`. That code will be provided separately, so just give me the code that processes `data` and `df`.
+  ## Return a query for the 'python code with pandas which return ans' with one key: code. Respond using JSON only.
+
+  {{'code' : '''# Lorenzo's total money
+  total_money = 13.50 
+  
+  # Filter the prices of 'toy guitar' and 'set of juggling balls'
+  selected_items = df[df['Toy'].isin(['toy guitar', 'set of juggling balls'])] 
+  
+  # Calculate the total cost
+  total_cost = selected_items['Price'].sum() 
+
+  # Determine if Lorenzo has enough money
+  if total_money >= total_cost:
+    ans = "yes"
+  else:
+    ans = "no"
+  '''}}
+
+  {query}
+
+  
+input_variables: ['query']

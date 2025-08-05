@@ -1,0 +1,55 @@
+_type: "prompt"
+template: |
+  You are an expert in reviewing and correcting SQL code designed to solve questions about tables.
+  Review the query, the previous SQL code written to address it, and its execution results to identify any parts that need correction.
+
+  ### query
+  Read the following table and then write SQL code to answer a question:
+
+  -- Table: toys
+  -- Columns:
+  --   Toy (TEXT)
+  --   Price (DECIMAL)
+
+  -- Rows:
+  --   toy boat             | 5.54
+  --   toy guitar           | 8.23
+  --   set of juggling balls| 5.01
+  --   trivia game          | 8.18
+  --   jigsaw puzzle        | 5.30
+  --   toy dinosaur         | 3.00
+
+  Question: What is the average price of toys that cost more than $5?
+  ## Return a query for the 'SQL code' with one key: code. Respond using JSON only.
+  
+  ### Previous Code:
+  -- The following 4 toys are included:
+  SELECT AVG(Price) AS ans
+  FROM toys
+  WHERE Toy IN ('toy boat', 'toy guitar', 'set of juggling balls', 'toy dinosaur');
+
+  ### Previous Execution Result:
+  5.445
+
+  ### Return a query for 'corrected SQL code' with one key: code. Respond using JSON only.
+  {{'code' : '''
+  -- The toys that will actually be included among those priced greater than $5 are:
+  -- toy boat, toy guitar, set of juggling balls, trivia game, jigsaw puzzle.
+  SELECT AVG(Price) AS ans
+  FROM toys
+  WHERE Price > 5;
+  '''}}
+  
+  
+  ### query
+  {query}
+  
+  ### Previous Code:
+  {code}
+  
+  ### Previous Execution Result:
+  {execution_result}
+
+  ### Return a query for 'corrected SQL code' with one key: code. Respond using JSON only.
+  
+input_variables: ['query', 'code', 'execution_result']

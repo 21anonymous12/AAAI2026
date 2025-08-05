@@ -1,0 +1,111 @@
+_type: "prompt"
+template: |
+  Read the following table and then write SQL code to answer the question:
+
+  -- Table: coin_collection
+  -- Columns:
+  --   Name (TEXT)
+  --   Number_of_coins (INTEGER)
+  --
+  -- Rows:
+  --   Braden   | 76
+  --   Camilla  | 94
+  --   Rick     | 86
+  --   Mary     | 84
+  --   Hector   | 80
+  --   Devin    | 83
+  --   Emily    | 82
+  --   Avery    | 87
+
+  Question: Some friends discussed the sizes of their coin collections. What is the mean of the numbers?
+  ## Return a query for the 'SQL code' with one key: code. Respond using JSON only.
+
+  {{'code' : '''
+  SELECT AVG(Number_of_coins) AS answer
+  FROM coin_collection;
+  '''}}
+
+
+  Read the following table and then write SQL code to answer the question:
+
+  -- Table: market
+  -- Columns:
+  --   Price (INTEGER)
+  --   Quantity_demanded (INTEGER)
+  --   Quantity_supplied (INTEGER)
+  --
+  -- Rows:
+  --   155 | 22600 | 5800
+  --   275 | 20500 | 9400
+  --   395 | 18400 | 13000
+  --   515 | 16300 | 16600
+  --   635 | 14200 | 20200
+
+  Question: Look at the table. Then answer the question. At a price of $155, is there a shortage or a surplus?
+  ## Return a query for the 'SQL code' with one key: code. Respond using JSON only.
+
+  {{'code' : '''
+  SELECT 
+    CASE 
+      WHEN Quantity_demanded > Quantity_supplied THEN 'shortage'
+      ELSE 'surplus'
+    END AS answer
+  FROM market
+  WHERE Price = 155;
+  '''}}
+
+
+  Read the following table and then write SQL code to answer the question:
+
+  -- Table: can_collection
+  -- Columns:
+  --   Name (TEXT)
+  --   Cans_collected (INTEGER)
+  --
+  -- Rows:
+  --   Samir   | 7
+  --   Kristen | 4
+  --   Dakota  | 7
+  --   Jamie   | 8
+  --   Maggie  | 9
+
+  Question: Samir's class recorded how many cans of food each student collected for their canned food drive. What is the median of the numbers?
+  ## Return a query for the 'SQL code' with one key: code. Respond using JSON only.
+
+  {{'code' : '''
+  SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY Cans_collected) AS answer
+  FROM can_collection;
+  '''}}
+
+
+  Read the following table and then write SQL code to answer the question:
+
+  -- Table: toys
+  -- Columns:
+  --   Toy (TEXT)
+  --   Price (DECIMAL)
+  --
+  -- Rows:
+  --   toy boat             | 5.54
+  --   toy guitar           | 8.23
+  --   set of juggling balls| 5.01
+  --   trivia game          | 8.18
+  --   jigsaw puzzle        | 5.30
+  --   toy dinosaur         | 3.00
+
+  Question: Lorenzo has $13.50. Does he have enough to buy a toy guitar and a set of juggling balls?
+  ## Return a query for the 'SQL code' with one key: code. Respond using JSON only.
+
+  {{'code' : '''
+  SELECT 
+    CASE 
+      WHEN SUM(Price) <= 13.50 THEN 'yes'
+      ELSE 'no'
+    END AS answer
+  FROM toys
+  WHERE Toy IN ('toy guitar', 'set of juggling balls');
+  '''}}
+
+  {query}
+
+input_variables: ['query']

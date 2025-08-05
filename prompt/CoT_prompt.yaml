@@ -1,0 +1,92 @@
+_type: "prompt"
+template: |
+  Read the following table and then write solution texts to answer a question:
+  
+  | Name     | Number of coins |
+  |----------|-----------------|
+  | Braden   | 76              |
+  | Camilla  | 94              |
+  | Rick     | 86              |
+  | Mary     | 84              |
+  | Hector   | 80              |
+  | Devin    | 83              |
+  | Emily    | 82              |
+  | Avery    | 87              |
+
+  Question: Some friends discussed the sizes of their coin collections. What is the mean of the numbers?
+  ## Return a query for the solution and answer with two keys: solution and answer. Respond using JSON only.
+
+  {{'solution': "To find the mean, we sum up the numbers of coins for all the individuals and then divide the total by the number of individuals.
+  Step 1: Add all the numbers of coins: 76 + 94 + 86 + 84 + 80 + 83 + 82 + 87 = 672
+  Step 2: Count the number of individuals: There are 8 individuals.
+  Step 3: Calculate the mean: Mean = Total sum of coins / Number of individuals = 672/8 = 84", 'answer': 84}}
+  
+  
+  Read the following table and then write solution texts to answer a question:
+  
+  | Price  | Quantity demanded | Quantity supplied |
+  |--------|-------------------|-------------------|
+  | $155   | 22,600            | 5,800            |
+  | $275   | 20,500            | 9,400            |
+  | $395   | 18,400            | 13,000           |
+  | $515   | 16,300            | 16,600           |
+  | $635   | 14,200            | 20,200           |
+
+  Question: Look at the table. Then answer the question. At a price of $155, is there a shortage or a surplus?
+  ## Return a query for the solution and answer with two keys: solution and answer. Respond using JSON only.
+
+  {{'solution': "To determine if there is a 'shortage' or a 'surplus', we compare the 'quantity demanded' and the 'quantity supplied' at the given price.
+  Step 1: 
+  Identify the values from the table for $155:
+  - Quantity demanded = 22,600
+  - Quantity supplied = 5,800
+  Step 2: 
+  Calculate the difference: 
+  Shortage or Surplus = Quantity demanded - Quantity supplied = 22,600 - 5,800 = 16,800
+  Step 3: Determine the situation: 
+  Since the quantity demanded is greater than the quantity supplied, there is a 'shortage' of 16,800 units.", 'answer': 'shortage'}}
+  
+  
+  Read the following table and then write solution texts to answer a question:
+  
+  | Name     | Number |
+  |----------|--------|
+  | Samir    | 7      |
+  | Kristen  | 4      |
+  | Dakota   | 7      |
+  | Jamie    | 8      |
+  | Maggie   | 9      |
+
+  Question: Samir's class recorded how many cans of food each student collected for their canned food drive. What is the median of the numbers?
+  ## Return a query for the solution and answer with two keys: solution and answer. Respond using JSON only.
+
+  {{'solution': "To find the median, we need to arrange the numbers in order from smallest to largest and then identify the middle number.
+  Step 1: Arrange the numbers: 4, 7, 7, 8, 9
+  Step 2: Identify the middle number. Since there are 5 numbers (an odd count), the middle number is the third number. So the median is 7.", 'answer': 7}}
+  
+  
+  Read the following table and then write solution texts to answer a question:
+  
+  | Toy                     | Price  |
+  |-------------------------|--------|
+  | toy boat                | $5.54  |
+  | toy guitar              | $8.23  |
+  | set of juggling balls   | $5.01  |
+  | trivia game             | $8.18  |
+  | jigsaw puzzle           | $5.30  |
+  | toy dinosaur            | $3.00  |
+
+  Question: Lorenzo has $13.50. Does he have enough to buy a toy guitar and a set of juggling balls?
+  ## Return a query for the solution and answer with two keys: solution and answer. Respond using JSON only.
+  
+  {{'solution': "To determine if Lorenzo can afford both the toy guitar and the set of juggling balls, we need to calculate their combined cost and compare it to Lorenzo's available money.
+  Step 1: Identify the prices:
+  - Toy guitar = $8.23  
+  - Set of juggling balls = $5.01  
+  Step 2: Calculate the total cost:
+  Total cost = 8.23 + 5.01 = 13.24
+  Step 3: Compare the total cost to Lorenzo's money. Lorenzo has $13.50, and the total cost is $13.24. Since $13.24 is less than $13.50, Lorenzo does have enough money.", 'answer': 'Yes'}}
+
+  {query}
+  
+input_variables: ['query']
