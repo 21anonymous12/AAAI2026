@@ -20,13 +20,13 @@ You can download the MATA confidence checker checkpoint from the following [link
 
 **1. Clone this repository using the web URL.**
 ```bash
-git clone https://github.com/21anonymous12/EMNLP..git
+git clone https://github.com/21anonymous12/AAAI2026.git
 ```
 **2. To use MATA, you need to install [Ollama](https://ollama.com/). Please run the following code in your local environment. Our code is designed to be used on Linux systems.**
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-**3. Place [the scheduler checkpoint](https://drive.google.com/file/d/1034behq_VONXuJOlvCKuFRXNYkmNERTI/view?usp=sharing) inside the [`scheduler` folder](https://github.com/21anonymous12/EMNLP./tree/main/scheduler).**
+**3. Place [the scheduler checkpoint](https://drive.google.com/file/d/1034behq_VONXuJOlvCKuFRXNYkmNERTI/view?usp=sharing) inside the [`scheduler` folder](https://github.com/21anonymous12/AAAI2026/tree/main/scheduler).**
 
 **4. Run the following code.**
 ```bash
