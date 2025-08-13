@@ -14,7 +14,7 @@ print(f"F1 score : {eval_result['F1_score']}")
 # ---Output---
 # Exact Match : 0.0
 # Fuzzy Maching : 0.83
-# F1 score : 0.67
+# F1 score : 0.66667
 ```
 
 -------
@@ -23,5 +23,5 @@ Running this script will print as follows:
 ```bash
 Exact Match : 0.0
 Fuzzy Maching : 0.83
-F1 score : 0.67
+F1 score : 0.66667
 ```
