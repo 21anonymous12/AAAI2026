@@ -19,7 +19,7 @@ print(f"F1 score : {eval_result['F1_score']}")
 
 -------
 
-Running this script will print 
+Running this script will print as follows:
 ```bash
 Exact Match : False
 Fuzzy Maching : 0.83
