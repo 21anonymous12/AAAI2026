@@ -12,7 +12,7 @@ print(f"Exact Match : {eval_result['exact_match']}")
 print(f"Fuzzy Matching : {eval_result['Fuzzy_Matching']}")
 print(f"F1 score : {eval_result['F1_score']}")
 # ---Output---
-# Exact Match : False
+# Exact Match : 0.0
 # Fuzzy Maching : 0.83
 # F1 score : 0.67
 ```
@@ -21,7 +21,7 @@ print(f"F1 score : {eval_result['F1_score']}")
 
 Running this script will print as follows:
 ```bash
-Exact Match : False
+Exact Match : 0.0
 Fuzzy Maching : 0.83
 F1 score : 0.67
 ```
