@@ -69,6 +69,6 @@ python MATA.py --config config.yaml --Use_Scheduler False --N 5
 
 --- 
 
-### Experiments codes
+### Experiments codes and Training Datasets
 
-You can find the codes for MATA and the baselines used in the experiments at the following [link](https://github.com/21anonymous12/AAAI2026/tree/main/experiments).
+You can find the codes and training datasets for MATA and the baselines used in the experiments at the following [link](https://github.com/21anonymous12/AAAI2026/tree/main/experiments).
