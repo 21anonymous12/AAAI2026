@@ -1,4 +1,4 @@
-<img width="120" height="82" alt="image" src="https://github.com/user-attachments/assets/a88b4b10-b154-4306-bfe3-a1c16d91f515" /># MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering
+# MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering
 
 ## How to Use evaluate.py
 
