@@ -8,7 +8,7 @@ from evaluate import *
 pred = 'John , Andy'
 target = 'John and Andy'
 eval_result = evaluate_all_metrics(pred, target)
-print(f"Exact Match : {eval_result['exact_match']}")
+print(f"Exact Match : {eval_result['exact_match']}") # The value 1.0 means True, and 0.0 means False.
 print(f"Fuzzy Matching : {eval_result['Fuzzy_Matching']}")
 print(f"F1 score : {eval_result['F1_score']}")
 # ---Output---
