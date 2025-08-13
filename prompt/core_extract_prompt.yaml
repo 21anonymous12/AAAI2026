@@ -1,0 +1,18 @@
+_type: "prompt"
+template: |
+    You are a helpful AI that extracts the key entities from a specific sentence.
+    For a given question, someone has provided an answer.
+    However, the answer is too long and verbose, so you need to condense it into a few short entities. Summarize the answer into a few words as entities.
+
+    ## Return a query for the solution and answer with two keys: Justification and Answer. Respond using JSON only.
+    - Question: Which country had the highest British exports in 1950, and how does it compare to its British exports in 1942?
+    - Answer: Sweden had the highest British exports in 1950 with 165.5 million Pounds, which was 72.3 million Pounds higher than its 1942 value of 93.2 million Pounds.
+    ## Return the final output strictly in the following JSON format.
+    {{'Extracted_Answer' : 'Sweden, 72.3'}}
+    
+    ## Return a query for the solution and answer with two keys: Justification and Answer. Respond using JSON only.
+    - Question : {Question}
+    - Answer : {Answer}
+    ## Return the final output strictly in the following JSON format.
+  
+input_variables: ['Question', 'Answer']
