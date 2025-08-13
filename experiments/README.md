@@ -1,4 +1,4 @@
-# MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering
+<img width="120" height="82" alt="image" src="https://github.com/user-attachments/assets/a88b4b10-b154-4306-bfe3-a1c16d91f515" /># MATA: Multi-Agent Framework for Reliable and Flexible Table Question Answering
 
 ## How to Use evaluate.py
 
@@ -17,11 +17,16 @@ print(f"F1 score : {eval_result['F1_score']}")
 # F1 score : 0.66667
 ```
 
--------
-
-Running this script will print as follows:
+### Running this script will print as follows:
 ```bash
 Exact Match : 0.0
 Fuzzy Maching : 0.83
 F1 score : 0.66667
 ```
+
+
+----------------
+
+## Training Datasets for Scheduler And Confidence Checker
+
+You can download these from [this](https://drive.google.com/drive/folders/1kAmC_wJxNI-Be9s9Ug77m4phgLI_ZyOR?usp=sharing) link.
