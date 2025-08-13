@@ -10,7 +10,7 @@ Here, you can find the experimental code, and fine-tuned model checkpoints for M
 
 ---
 ## MATA scheduler Checkpoint
-You can download the MATA scheduler checkpoint from the following [link](https://drive.google.com/file/d/1aqeB_05z8MMWXYn_kiKoTFVlCfI__Meb/view?usp=sharing).
+You can download the MATA scheduler checkpoint from the following [link](https://drive.google.com/file/d/1034behq_VONXuJOlvCKuFRXNYkmNERTI/view?usp=sharing).
 
 ## MATA confidence checker Checkpoint
 You can download the MATA confidence checker checkpoint from the following [link](https://huggingface.co/7anonymous7/confidence_checker).
@@ -26,7 +26,7 @@ git clone https://github.com/21anonymous12/AAAI2026.git
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-**3. Place [the scheduler checkpoint](https://drive.google.com/file/d/1aqeB_05z8MMWXYn_kiKoTFVlCfI__Meb/view?usp=sharing) inside the [`scheduler` folder](https://github.com/21anonymous12/AAAI2026/tree/main/scheduler).**
+**3. Place [the scheduler checkpoint](https://drive.google.com/file/d/1034behq_VONXuJOlvCKuFRXNYkmNERTI/view?usp=sharing) inside the [`scheduler` folder](https://github.com/21anonymous12/AAAI2026/tree/main/scheduler).**
 
 **4. Run the following code.**
 ```bash
@@ -53,7 +53,7 @@ ollama pull phi4:14b
 conda env create -f ./langchain.yml
 ```
 
-**8. Download the scheduler checkpoint from the following [link](https://drive.google.com/file/d/1aqeB_05z8MMWXYn_kiKoTFVlCfI__Meb/view?usp=sharing) and place it inside the `scheduler` folder.**
+**8. Download the scheduler checkpoint from the following [link](https://drive.google.com/file/d/1034behq_VONXuJOlvCKuFRXNYkmNERTI/view?usp=sharing) and place it inside the `scheduler` folder.**
 
 **9. Run the following code.**
 ```bash
