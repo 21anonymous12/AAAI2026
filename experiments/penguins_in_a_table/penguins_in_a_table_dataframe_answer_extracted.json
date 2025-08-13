@@ -1,0 +1,1010 @@
+{
+    "0": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "1": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "2": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "3": {
+        "Question": "How many animals are more than 5 years old?",
+        "Options": "(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(A)",
+        "answer_extract": "5"
+    },
+    "4": {
+        "Question": "Which penguin is older than Gwen?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "5": {
+        "Question": "What is the cumulated age of the giraffes?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(A)",
+        "answer_extract": "26"
+    },
+    "6": {
+        "Question": "What is the name of the penguin that is 70 cm tall?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "7": {
+        "Question": "What is the name of the last giraffe sorted by alphabetic order?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(C)",
+        "answer_extract": "Marian"
+    },
+    "8": {
+        "Question": "How many penguins are there in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "5"
+    },
+    "9": {
+        "Question": "Which penguin has the first name of a famous jazzman?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "10": {
+        "Question": "How many penguins are more than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "11": {
+        "Question": "How many giraffes are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "12": {
+        "Question": "How many penguins are less than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "13": {
+        "Question": "How many giraffes are there in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "14": {
+        "Question": "How many animals are listed in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "15": {
+        "Question": "How many penguins are more than 5 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "16": {
+        "Question": "How many giraffes are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "17": {
+        "Question": "How many penguins are there in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "18": {
+        "Question": "What is the average height of the penguins?",
+        "Options": "(A) 60\n(B) 65\n(C) 70\n(D) 75\n(E) 80",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "70"
+    },
+    "19": {
+        "Question": "Which is the youngest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "20": {
+        "Question": "How many penguins are less than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "21": {
+        "Question": "What is the cumulated weight of the penguins?",
+        "Options": "(A) 37\n(B) 49\n(C) 50\n(D) 62\n(E) 63",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "62"
+    },
+    "22": {
+        "Question": "How many penguins are more than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "23": {
+        "Question": "How many penguins are more than 5 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "24": {
+        "Question": "What is the age of Bernard?",
+        "Options": "(A) 7\n(B) 5\n(C) 9\n(D) 8\n(E) 12",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "5"
+    },
+    "25": {
+        "Question": "How many penguins are less than 10 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "26": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "27": {
+        "Question": "How many penguins are more than 5 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "28": {
+        "Question": "What is the name of the 60 cm tall penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "29": {
+        "Question": "What is the name of the last giraffe?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "Donna"
+    },
+    "30": {
+        "Question": "What is the name of the last animal?",
+        "Options": "(A) Bernard\n(B) Donna\n(C) Gladys\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "Donna"
+    },
+    "31": {
+        "Question": "What is the name of the last giraffe sorted by alphabetic order?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(C)",
+        "answer_extract": "Marian"
+    },
+    "32": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "33": {
+        "Question": "What is the name of the last giraffe?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "Donna"
+    },
+    "34": {
+        "Question": "How many species are listed in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "35": {
+        "Question": "How many animals are listed in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "5"
+    },
+    "36": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "37": {
+        "Question": "How many penguins are there in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "38": {
+        "Question": "How many giraffes are there in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "39": {
+        "Question": "What is the name of the 0.6 m tall penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "40": {
+        "Question": "How many penguins are less than 8 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "41": {
+        "Question": "How many animals are listed in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "42": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "43": {
+        "Question": "How many animals are more than 5 years old?",
+        "Options": "(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "6"
+    },
+    "44": {
+        "Question": "How many penguins are more than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "45": {
+        "Question": "What is the name of the first penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "46": {
+        "Question": "Which is the oldest giraffe?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "Gladys"
+    },
+    "47": {
+        "Question": "How many penguins are there in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "48": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 24\n(B) 29\n(C) 36\n(D) 41\n(E) 48",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "41"
+    },
+    "49": {
+        "Question": "Which penguin has a welsh name?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "50": {
+        "Question": "What is the name of the penguin that is 70 cm tall?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "51": {
+        "Question": "Which is the shortest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "52": {
+        "Question": "Which penguin is less than 7 years old?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "53": {
+        "Question": "What is the name of the first penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "54": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "55": {
+        "Question": "How many columns are there in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "56": {
+        "Question": "What is the height of Gwen?",
+        "Options": "(A) 50\n(B) 80\n(C) 60\n(D) 70\n(E) 90",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "70"
+    },
+    "57": {
+        "Question": "what is the number of the column with the names (1, 2, 3 or 4)?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "58": {
+        "Question": "What is the name of the penguin that is 9 years old?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "59": {
+        "Question": "What is the weight of Louis?",
+        "Options": "(A) 11\n(B) 13\n(C) 15\n(D) 12",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "11"
+    },
+    "60": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "61": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 24\n(B) 29\n(C) 36\n(D) 41\n(E) 48",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "29"
+    },
+    "62": {
+        "Question": "what is the number of the column with the weights (1, 2, 3 or 4)?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "63": {
+        "Question": "How many penguins are less than 10 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "64": {
+        "Question": "What is the cumulated age of the animals?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(E)",
+        "answer_extract": "67"
+    },
+    "65": {
+        "Question": "What is the average height of the penguins?",
+        "Options": "(A) 60\n(B) 65\n(C) 70\n(D) 75\n(E) 80",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "60"
+    },
+    "66": {
+        "Question": "What is the name of the first penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "67": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "68": {
+        "Question": "How many penguins are less than 8 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "69": {
+        "Question": "What is the name of the next to last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "70": {
+        "Question": "How many animals are listed in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "71": {
+        "Question": "Which penguin is younger than Vincent and older than Louis?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "72": {
+        "Question": "Which is the second youngest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "73": {
+        "Question": "Which penguin has the shortest name?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "74": {
+        "Question": "How many species are listed in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "75": {
+        "Question": "How many animals are listed in the tables?",
+        "Options": "(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(E)",
+        "answer_extract": "9"
+    },
+    "76": {
+        "Question": "How many penguins are less than 8 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "77": {
+        "Question": "How many animals are listed in the tables?",
+        "Options": "(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "8"
+    },
+    "78": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 24\n(B) 29\n(C) 36\n(D) 41\n(E) 48",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "24"
+    },
+    "79": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "80": {
+        "Question": "What is the name of the last animal?",
+        "Options": "(A) Bernard\n(B) Donna\n(C) Gladys\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "Donna"
+    },
+    "81": {
+        "Question": "What is the name of the first penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "82": {
+        "Question": "What is the cumulated weight of the penguins?",
+        "Options": "(A) 37\n(B) 49\n(C) 50\n(D) 62\n(E) 63",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "49"
+    },
+    "83": {
+        "Question": "How many penguins are more than 5 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "84": {
+        "Question": "What is the cumulated age of the penguins and giraffes?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "55"
+    },
+    "85": {
+        "Question": "What is the name of the penguin that is 60 cm tall?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "86": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "87": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "88": {
+        "Question": "How many penguins are more than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "89": {
+        "Question": "What is the name of the last animal sorted by alphabetic order?",
+        "Options": "(A) Jody\n(B) Louis\n(C) Louise\n(D) Marian\n(E) Vincent",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(E)",
+        "answer_extract": "Vincent"
+    },
+    "90": {
+        "Question": "Which penguin is two years younger than Vincent?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "91": {
+        "Question": "How many penguins are less than 10 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "92": {
+        "Question": "How many penguins are less than 8 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "93": {
+        "Question": "What is the name of the last penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "94": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "95": {
+        "Question": "How many penguins are there in the table?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "96": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "41"
+    },
+    "97": {
+        "Question": "Which is the second heaviest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "98": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "99": {
+        "Question": "What is the name of the 60 cm tall penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "100": {
+        "Question": "How many penguins are more than 5 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "101": {
+        "Question": "What is the shortest height?",
+        "Options": "(A) 50\n(B) 80\n(C) 60\n(D) 70\n(E) 90",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "50"
+    },
+    "102": {
+        "Question": "What is the cumulated weight of the penguins?",
+        "Options": "(A) 37\n(B) 49\n(C) 50\n(D) 62\n(E) 63",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "37"
+    },
+    "103": {
+        "Question": "Which is the tallest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "104": {
+        "Question": "How many species are listed in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "105": {
+        "Question": "Which penguin shares his first name with a famous painter?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "106": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "107": {
+        "Question": "How many penguins are more than 5 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "108": {
+        "Question": "How many penguins are more than 5 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "109": {
+        "Question": "Which penguin is older than the other ones?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "110": {
+        "Question": "What is the average height of the penguins?",
+        "Options": "(A) 60\n(B) 65\n(C) 70\n(D) 75\n(E) 80",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "65"
+    },
+    "111": {
+        "Question": "Which penguin is taller than the other ones?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "112": {
+        "Question": "What is the shortest height?",
+        "Options": "(A) 50\n(B) 80\n(C) 60\n(D) 70\n(E) 90",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "50"
+    },
+    "113": {
+        "Question": "What is the name of the last animal sorted by alphabetic order?",
+        "Options": "(A) Jody\n(B) Louis\n(C) Louise\n(D) Marian\n(E) Vincent",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(E)",
+        "answer_extract": "Vincent"
+    },
+    "114": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "115": {
+        "Question": "What is the name of the second penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "116": {
+        "Question": "Which penguin is younger than Louis?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "117": {
+        "Question": "How many penguins are more than 5 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(D)",
+        "answer_extract": "4"
+    },
+    "118": {
+        "Question": "How many penguins are less than 8 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "119": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "120": {
+        "Question": "How many penguins are less than 8 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "121": {
+        "Question": "Which penguin is older than Bernard and younger than Gwen?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "122": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "29"
+    },
+    "123": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "124": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "125": {
+        "Question": "Which is the oldest giraffe?",
+        "Options": "(A) Jody\n(B) Gladys\n(C) Marian\n(D) Donna\n(E) Louise",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(B)",
+        "answer_extract": "Gladys"
+    },
+    "126": {
+        "Question": "How many penguins are more than 5 years old and weight less than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(B)",
+        "answer_extract": "2"
+    },
+    "127": {
+        "Question": "How many penguins are less than 8 years old and weight more than 12 kg?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "1"
+    },
+    "128": {
+        "Question": "What is the name of the last penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "129": {
+        "Question": "Which is the tallest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    },
+    "130": {
+        "Question": "How many penguins are less than 10 years old?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "3"
+    },
+    "131": {
+        "Question": "What is the cumulated weight of the penguins?",
+        "Options": "(A) 37\n(B) 49\n(C) 50\n(D) 62\n(E) 63",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "50"
+    },
+    "132": {
+        "Question": "What is the cumulated age of the giraffes?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(A)",
+        "answer_extract": "26"
+    },
+    "133": {
+        "Question": "What is the cumulated age of the animals?",
+        "Options": "(A) 26\n(B) 29\n(C) 41\n(D) 55\n(E) 67",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJody,5,430,620\nGladys,10,420,590\nMarian,2,310,410\nDonna,9,440,650",
+        "target": "(D)",
+        "answer_extract": "55"
+    },
+    "134": {
+        "Question": "What is the largest height?",
+        "Options": "(A) 50\n(B) 80\n(C) 60\n(D) 70\n(E) 90",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "90"
+    },
+    "135": {
+        "Question": "Which is the shortest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(A)",
+        "answer_extract": "Louis"
+    },
+    "136": {
+        "Question": "Which penguin is one year younger than Vincent?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "137": {
+        "Question": "Which is the oldest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(C)",
+        "answer_extract": "Vincent"
+    },
+    "138": {
+        "Question": "Which is the heaviest penguin?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(D)",
+        "answer_extract": "Gwen"
+    },
+    "139": {
+        "Question": "What is the cumulated age of the penguins?",
+        "Options": "(A) 24\n(B) 29\n(C) 36\n(D) 41\n(E) 48",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(C)",
+        "answer_extract": "36"
+    },
+    "140": {
+        "Question": "Which penguin is younger but taller than Gwen?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "141": {
+        "Question": "How many penguins are there in the tables?",
+        "Options": "(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "5"
+    },
+    "142": {
+        "Question": "What is the name of the first penguin sorted by alphabetic order?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15",
+        "target": "(B)",
+        "answer_extract": "Bernard"
+    },
+    "143": {
+        "Question": "Which penguin is taller than the other ones?",
+        "Options": "(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+        "Table": "name,age,height_cm,weight_kg\nLouis,7,50,11\nBernard,5,80,13\nVincent,9,60,11\nGwen,8,70,15\nJames,12,90,12",
+        "target": "(E)",
+        "answer_extract": "James"
+    }
+}
