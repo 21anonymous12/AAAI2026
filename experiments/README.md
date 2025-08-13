@@ -40,9 +40,7 @@ To build this dataset, we leverage three publicly available TableQA datasets: [W
 
 
 
-The table below summarizes the TableQA datasets used for training.  
-**# table cells** shows the average number of cells per table in each dataset.  
-**# CoT**, **# PoT**, and **# text2SQL** indicate the number of questions correctly answered by each reasoning method according to the Exact Match metric.
+The table below summarizes the TableQA datasets used for training. **# table cells** shows the average number of cells per table in each dataset. **# CoT**, **# PoT**, and **# text2SQL** indicate the number of questions correctly answered by each reasoning method according to the Exact Match metric.
 | Dataset | # (T, Q) pairs | # table cells | LLM               | # CoT  | # PoT  | # text2SQL | # Incorrect All |
 |---------|----------------|---------------|-------------------|--------|--------|------------|-----------------|
 |         |                |               | CodeLLaMA:13B     | 4,832  | 3,813  | 3,284      | 6,378           |
