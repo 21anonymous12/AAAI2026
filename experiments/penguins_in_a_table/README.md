@@ -2,7 +2,7 @@
 
 ## Penguins in a Table
 
-[Penguins in a Table]() is a diagnostic dataset from BIG-bench designed to test basic table reasoning. It presents a single table of penguin species with attributes like height and weight, and asks simple factual or comparative questions. This isolates core table understanding without involving complex language or multi-step logic. We created and used a DataLoader that conveniently loads the original data—originally written as text descriptions of tables—into a pandas DataFrame format.
+[Penguins in a Table](https://github.com/google/BIG-bench/blob/main/bigbench/benchmark_tasks/penguins_in_a_table/task.json) is a diagnostic dataset from BIG-bench designed to test basic table reasoning. It presents a single table of penguin species with attributes like height and weight, and asks simple factual or comparative questions. This isolates core table understanding without involving complex language or multi-step logic. We created and used a DataLoader that conveniently loads the original data—originally written as text descriptions of tables—into a pandas DataFrame format.
 
 
 By following the procedure below, you can reproduce the experimental results on the Penguins in a Table dataset, which is one of the benchmark datasets used in our paper.
