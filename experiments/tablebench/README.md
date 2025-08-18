@@ -38,7 +38,7 @@ ollama serve
 ollama pull qwen2.5:32b-instruct
 ```
 
-**6. Move the `MATA_tablebench.py` file and the `Tablebench_loader.py` file to the root folder.**
+**6. Move the `MATA_tablebench.py` file and the `Tablebench_loader.py` file to the [main](https://github.com/21anonymous12/AAAI2026/tree/main) folder.**
 
 **7. If you want to change the model, you need to modify the code in the following four locations:**
 
