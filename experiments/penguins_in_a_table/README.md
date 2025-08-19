@@ -1,4 +1,4 @@
-# How to Reproduce MATA Experiment Results on the Penguins in a Table Dataset
+# How to Reproduce MATA Experiment Results on the `Penguins in a Table` Dataset
 
 ## Penguins in a Table
 
