@@ -1,0 +1,4 @@
+[submodule "data/squall"]
+	path = data/squall
+	url = https://github.com/tzshi/squall.git
+	

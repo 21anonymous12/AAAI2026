@@ -1,0 +1,11 @@
+fire
+fuzzywuzzy
+numpy
+openai
+pandas
+tiktoken
+torch
+tqdm
+transformers
+timeout-decorator
+tabulate
